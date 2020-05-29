@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de-DE"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Simple calculator app</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>My calculator app</h1>
+<div class="calculator">
+    <!-- Eingabefeld mit Startwert 0 -->
+    <input type="text" class="calculator-screen" value="0" disabled/> 
+
+<div class="calculator-keys">
+    <button type="button" class="operator" value="+">+</button>
+    <button type="button" class="operator" value="-">-</button>
+    <button type="button" class="operator" value="*">&times;</button>
+    <button type="button" class="operator" value="/">&divide;</button>
+<!-- Zuerst die oberste Reihe des Taschenrechners -->
+    <button type="button" class="value" value="7">7</button>
+    <button type="button" class="value" value="8">8</button>
+    <button type="button" class="value" value="9">9</button>
+    <!-- Dann die zweite Reihe des Taschenrechners -->
+    <button type="button" class="value" value="4">4</button>
+    <button type="button" class="value" value="5">5</button>
+    <button type="button" class="value" value="6">6</button>
+    <!-- Dann die dritte Reihe des Taschenrechners -->
+    <button type="button" class="value" value="1">1</button>
+    <button type="button" class="value" value="2">2</button>
+    <button type="button" class="value" value="3">3</button>
+
+    <!-- Dann die vierte Reihe des Taschenrechners mit clear und all-clear-->
+    <button type="button" class="value" value ="0">0</button>
+    <button type="button" class="decimal" value =".">.</button>
+    <button type="button" class="all-clear" value="all-clear">AC</button>
+    <button type="button" class="operator" id="equal" value ="=">=</button>
+</div>
+</div>
+</div>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
